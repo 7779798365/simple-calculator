@@ -12,7 +12,7 @@ const answer = await inquirer.prompt([
 ]);
 
 // conditional statement
-if(answer.opertors === "Addition") {    
+if(answer.operators === "Addition") {    
     console.log(answer.firstNumber + answer.secondNumber)
 } else if (answer.operator === "Subtraction") {
     console.log(answer.firstNumber - answer.secondNumber)
